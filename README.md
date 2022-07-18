@@ -1,1 +1,0 @@
-App to track speedruns on a large scale
