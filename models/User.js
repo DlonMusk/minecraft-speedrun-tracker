@@ -5,6 +5,7 @@ const userSchema = new Schema(
         minecraft_uuid: {
             type: String,
             required: true,
+            unique: true,
             trim: true
         },
         personalBest: {
@@ -16,7 +17,6 @@ const userSchema = new Schema(
                ref: 'run'
             }
         ]
-        
 
     },
 

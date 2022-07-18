@@ -6,7 +6,7 @@ const runSchema = new Schema(
             type: Number
         },
         start: {
-            type: Date
+            type: Number
         },
         minecraft_uuid: {
             type: Number
